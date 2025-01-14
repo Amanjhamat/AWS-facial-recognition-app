@@ -1,5 +1,5 @@
 Facial Recognition App on AWS
-This project demonstrates how to build a facial recognition application using AWS services such as Amazon Rekognition, AWS Lambda, Amazon S3, DynamoDB, and API Gateway, along with a React front-end. The application consists of two main flows:
+This project demonstrates how to build a facial recognition application using AWS services as Amazon Rekognition, AWS Lambda, Amazon S3, DynamoDB, and API Gateway, along with a React front-end. The application consists of two main flows:
 ![overview diagram](https://github.com/user-attachments/assets/f837549a-d673-4fc3-bdd3-a8d84601cf95)
 Registration Flow: Employee images are uploaded to an S3 bucket, triggering a Lambda function to process the image using Rekognition, which indexes the face and stores the information in DynamoDB.
 
