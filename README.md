@@ -4,3 +4,5 @@ This project is a facial recognition system built using AWS services as Amazon R
 Registration Flow: Employee images are uploaded to an S3 bucket, triggering a Lambda function to process the image using Rekognition, which indexes the face and stores the information in DynamoDB.
 
 Authentication Flow: Visitors or employees can upload an image for recognition via the React front-end, which triggers an API Gateway. The image is processed by a Lambda function using Rekognition to match the face with those indexed in DynamoDB.
+Follow the link below to view the project: 
+https://medium.com/@amanjhamat09/developed-a-facial-recognition-application-on-aws-leveraging-rekognition-lambda-dynamodb-api-562eda1ab319
